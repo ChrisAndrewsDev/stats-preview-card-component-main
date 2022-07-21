@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution Here!](https://your-solution-url.com)
-- Live Site URL: [My Deplyoyed Solution!](https://your-live-site-url.com)
+- Solution URL: [My Solution Here!](https://www.frontendmentor.io/solutions/dart-sass-this-one-was-surprisingly-tricky-for-me-LC85DTPUn-)
+- Live Site URL: [My Deplyoyed Solution!](https://62d91f2b01b7eb1fd9e6163b--peppy-nougat-740012.netlify.app/)
 
 ## My process
 
