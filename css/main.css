@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: hsl(233deg, 47%, 7%);
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  font-size: 0.7rem;
+}
+footer a {
+  text-decoration: none;
+  color: hsl(277deg, 64%, 61%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background-color: hsl(233deg, 47%, 7%);
+  color: hsl(0deg, 0%, 100%);
+  width: 100vw;
+  height: 98.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(244deg, 38%, 16%);
+  display: flex;
+  width: 75%;
+  border-radius: 15px;
+}
+.card .cardInfo {
+  width: calc(50% - 2rem);
+  padding: 2rem;
+  margin-right: 2rem;
+}
+.card .cardImage {
+  width: 50%;
+  background-image: url("../../images/image-header-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(180%);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.card .cardImage .layer {
+  background-color: hsla(277deg, 64%, 61%, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.card .cardInfoLead {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 70%;
+}
+.card .cardInfoLead h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin: 3rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+.card .cardInfoLead p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  width: 70%;
+  margin: 0 2.5rem;
+  line-height: 2;
+}
+.card .cardInfoLead lead {
+  color: hsl(277deg, 64%, 61%);
+}
+.card .cardInfoStats {
+  display: flex;
+  width: 90%;
+  height: 30%;
+  margin: 3rem 0;
+  justify-content: center;
+}
+.card .cardInfoStats .statContainer {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.card .cardInfoStats h2 {
+  font-size: 1.7rem;
+  margin-bottom: 6px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.card .cardInfoStats p {
+  text-transform: uppercase;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    height: 100vh;
+    padding: 3rem 0;
+  }
+  .card {
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .card .cardImage {
+    height: 230px;
+    width: 100%;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    background-position: center top;
+  }
+  .card .cardInfo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .card .cardInfo .cardInfoStats {
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 1rem 0;
+  }
+  .card .cardInfo .cardInfoStats .statContainer {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .card .cardInfo .cardInfoStats .statContainer h2 {
+    font-size: 1.4rem;
+  }
+  .card .cardInfo .cardInfoStats .statContainer p {
+    font-size: 13px;
+  }
+  .card .cardInfoLead {
+    height: auto;
+    width: 100%;
+  }
+  .card .cardInfoLead h1 {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+    font-size: 1.6rem;
+  }
+  .card .cardInfoLead p {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+}
