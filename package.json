@@ -2,8 +2,8 @@
   "dependencies": {
     "sass": "^1.53.0"
   },
-  "scripts": {
-    "watchsass": "sass --no-source-map --watch scss:css"
-    
+  "scripts":{
+    "watchsass": "sass --no-source-map --watch scss:css",
+    "buildsass": ""
   }
 }
